@@ -1,11 +1,15 @@
-#import pygame
+import turtle
 
-name = "cat"
-cat = "jdioejioeoi"
-def test():
-    print("hello 238483248")
-    
-print(cat)
+wn = turtle.Screen()
+wn.title("Pong by Anthony")
+wn.bgcolor("indigo")
+wn.setup(width=800, height=600)
+wn.tracer(0)
 
-test()
-print(name)
+# Main Game Loop
+
+while True:
+    wn.update()
+
+
+
