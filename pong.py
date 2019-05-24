@@ -1,4 +1,5 @@
 import turtle
+import tkinter
 
 wn = turtle.Screen()
 wn.title("Pong by Anthony")
