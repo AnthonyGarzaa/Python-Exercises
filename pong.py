@@ -30,7 +30,7 @@ ball.speed(0)
 ball.shape("square")
 ball.color("white")
 ball.penup()
-ball.goto(0, 0)
+ball.goto(0, 0) 
 
 # Function
 def paddle_a_up():
